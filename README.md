@@ -7,7 +7,7 @@ Telegram ID
 ### Инструкции для запуска  
 1. Создать файл google_credentials.json в папке creds/, добавить учетные данные service accounta  
 2. Создать файл vars.env, добавить переменные, подставить Telegram API и Telegram ID  
-
+```
 API_TOKEN=123
 MAIN_ID=123
 PG_USER=postgres
@@ -16,7 +16,7 @@ PG_HOST=pgdatabase
 PG_PORT=5432
 PG_DATABASE=postgres
 PG_TABLE=gs_table
-
+```
 3. Собрать образ и запустить контейнеры:
 docker-compose build
 docker-compose up
