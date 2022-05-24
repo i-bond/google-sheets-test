@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  bot_telegram:
+    build: .
+    command: python bot.py
+    volumes:
+      - .:/code
+    env_file:
+      - vars.env
+    depends_on:
+    - pgdatabase
+    - gs_sync_data
+    restart: always
+
+  gs_sync_data:
+    build: .
+    command: python gs_sync_data.py
+    volumes:
+      - .:/code
+    env_file:
+      - vars.env
+    depends_on:
+      - pgdatabase
+    restart: always
+
+  pgdatabase:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - pg-volume:/var/lib/postgresql/data
+    ports:
+      - "7000:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 5s
+      retries: 5
+    restart: always
+
+
+volumes:
+  pg-volume:
+
+

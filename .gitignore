@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.idea/
+log/
+venv/
+
+# DataBases
+*.sqlite3
+*.db
+
+# Environments
+*.env
+*.ven
+
+# Media
+*.jpg
+*.png
+
+# Data
+*.json
+*.csv
+*.txt
+
+# Description
+logos/
+
+# Do Not Ignore
+!requirements.txt
+!dashboard.png
+!creds/
+
