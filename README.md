@@ -21,12 +21,11 @@ PG_TABLE=gs_table
 docker-compose build
 docker-compose up
 
-4. Можно подключиться к БД через pgAdmin:
+4. Подключиться к БД можно через pgAdmin:
 ```
 localhost:7000
 postgres:postgres
 ```
-
 
 Полезные команды:
 ```
