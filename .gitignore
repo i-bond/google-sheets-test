@@ -27,5 +27,5 @@ logos/
 # Do Not Ignore
 !requirements.txt
 !dashboard.png
-!creds/
+!google_creds.json
 
