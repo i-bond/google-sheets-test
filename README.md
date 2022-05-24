@@ -25,9 +25,10 @@ PG_DATABASE=postgres
 PG_TABLE=gs_table
 ```
 3. Собрать образ и запустить контейнеры:
+```
 docker-compose build
 docker-compose up
-
+```
 4. Подключиться к БД можно через pgAdmin:
 ```
 localhost:7000
