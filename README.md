@@ -22,18 +22,18 @@ docker-compose build
 docker-compose up
 
 4. Можно подключиться к БД через pgAdmin:
+```
 localhost:7000
 postgres:postgres
-
-
-
+```
 
 
 Полезные команды:
+```
 docker exec -u root -it google_sheets_test_gs_sync_data_1 bash
 docker-compose down --volumes --rmi all
 docker-compose logs gs_sync_data
-
+```
 
 
 
