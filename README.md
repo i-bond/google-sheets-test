@@ -1,5 +1,6 @@
 # google-sheets-test
 
+**DashBoard Link**: https://datastudio.google.com/s/rHDudDTvzwQ
 **Google Sheets**: https://docs.google.com/spreadsheets/d/1G0Xfz-E4NBUvrTFaR5cVVHAYhY9OhZIH8S0QKgc4rLc
 
 ### Пререквизиты:   
