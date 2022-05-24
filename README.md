@@ -8,7 +8,7 @@ Telegram ID
 
 
 ### Инструкции для запуска  
-1. Создать файл google_credentials.json в папке creds/, добавить учетные данные service accounta  
+1. Создать файл google_credentials.json в папке creds/, добавить учетные данные GCP service accounta  
 2. Создать файл vars.env, добавить переменные, подставить Telegram API и Telegram ID  
 ```
 API_TOKEN=123
