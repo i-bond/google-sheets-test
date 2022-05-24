@@ -1,7 +1,10 @@
 # google-sheets-test
+Скрипт для синхронизации данных между Google Sheets и Postgres DB  
+Telegram бот для уведомления о сроках поставки  
 
 **DashBoard Link**: https://datastudio.google.com/reporting/8fb1a12b-18ca-46ea-9dc2-b0740f786788  
 **Google Sheets**: https://docs.google.com/spreadsheets/d/1G0Xfz-E4NBUvrTFaR5cVVHAYhY9OhZIH8S0QKgc4rLc  
+
 
 ### Пререквизиты:   
 Telegram API токен  
